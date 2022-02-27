@@ -1,0 +1,2 @@
+Git é uma ferramento de controle de versionamento
+Github é o "lugar" onde há repositorios (entre muias outras coisas) nos quais voce pode subir seus arquivos monitorados pelo Git

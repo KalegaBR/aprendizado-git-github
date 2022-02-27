@@ -1,0 +1,8 @@
+No Ubuntu:
+
+sudo apt install git-all
+
+
+No Fedora:
+
+sudo dnf install git-all

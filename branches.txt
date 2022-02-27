@@ -1,0 +1,7 @@
+Uma boa analogia para serem explicadas é pensar em múltiplos universos
+
+Uma alteração em um deles, não afetará o outro
+
+Porém, é possível fazer a junção de dois universos, através do "git merge"
+
+Na prática, servem para permitir que a aplicação tome diferentes rumos sem que haja a alteração da própria

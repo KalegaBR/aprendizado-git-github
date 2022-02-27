@@ -1,0 +1,21 @@
+Para clonar um repositorio já criado:
+
+git clone [url]
+
+
+
+Para conectar o pc com o seu repositorio do github, depois de ja ter feito o commit de um arquivo:
+
+git remote add origin [url do repos criado]
+
+
+
+Para subir os arquivos da branch atual pro repositorio conectado:
+
+git push origin [branchname]
+
+
+
+Para baixar os arquivos da branch atual do repositorio conectado:
+
+git pull origin [branchname]

@@ -1,0 +1,33 @@
+git add [file.ext] ADICIONA ARQUIVO NA AREA DE SELECAO 
+        . ADC TDS ARQUIVOS MONITORADOS
+
+git commit -m "[message]" AVISA Q HOUVE ALTERACAO NO ARQUIVO DA AREA DE SELECAO
+           --amend DESFAZ O ULTIMO COMMIT E PEDE PARA REFAZER
+
+git log MOSTRA A DATA E MENSAGEM DE ALTERACAO NOS COMMITS
+        --pretty=oneline MOSTRA SO A MENSAGEM EM UMA LINHA
+                         -1 MOSTRA A MENSAGEM DO ULTIMO COMMIT
+
+git diff DIFERENÇA ENTRE ARQUIVOS MONITORADOS
+         --name-only DIFERENÇA ENTRE NOMES DOS ARQUIVOS
+         [file.ext] DIFERENÇA ENTRE ANTES E DEPOIS DO ARQUIVO
+
+git reset HEAD [file.ext] TIRA ARQUIVO DA AREA DE SELECAO
+
+git checkout -- [file.ext] DESFAZ A ULTIMA ALTERACAO NO file. NAO PODE ESTAR NA AREA DE SELECAO
+	     [branchname] TROCA PRA BRANCH branchname
+             -b [branchname] CRIA A BRANCH branchname E JÁ TROCA PRA ELA
+
+git branch VE TODAS AS BRANCHES MONITORADAS
+           [branchname] CRIA UMA NOVA BRANCH branchname
+           -D [branchname] DELETA A BRANCH branchname
+
+git merge [branchname] UNE A BRANCH branchname PARA A BRANCH ATUAL
+
+git clone [url] CLONA UM REPOSITORIO DO GITHUB
+
+git remote add origin [url do repos criado] CONECTA O PC COM O GITHUB
+
+git push origin [branchname] SOBE OS ARQUIVOS DO BRANCH branchname PRO REPOSITORIO 
+
+git pull origin [branchname] PUXA OS ARQUIVOS DO BRANCH branchname DO REPOSITORIO
